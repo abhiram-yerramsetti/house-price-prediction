@@ -8,7 +8,7 @@ import streamlit as st
 import pickle
 
 
-model = pickle.load(open(r"E:\innomatics\ml\1 property price prediction\linear_reg.plk",'rb'))
+model = pickle.load(open(r"linear_reg.plk",'rb'))
 
 st.title("Price of a property predictor")
 
